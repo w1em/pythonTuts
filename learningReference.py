@@ -21,4 +21,8 @@ code''' # Use triple quotes to make multiline text
 s[:] #copy all elements
 s[1:] #all elements past the first
 s[:-1] #everything but last element
-s[::2] #every other element
+s[::2] #every other element 
+
+concat = 'furry %s' % ('dog') #string formatting
+
+commas = '{:,d}'.format(9999999999999) #add commas in proper places
