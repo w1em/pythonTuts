@@ -15,4 +15,10 @@ s.upper() # lower/uppercase letter
 multiLineString = '''This string will
 extend multiple
 lines in the
-code''' ## Use triple quotes to make multiline text
+code''' # Use triple quotes to make multiline text
+
+#slicing
+s[:] #copy all elements
+s[1:] #all elements past the first
+s[:-1] #everything but last element
+s[::2] #every other element
